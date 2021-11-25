@@ -80,16 +80,16 @@ function fill(count) {
 //adding eventListener to canvas for music movements
 canvas.addEventListener("click", (e) => {
   
-  let st = e.x / music.duration;
+  let st = e.pageX / music.duration;
 
-  let x = e.x / (len / music.duration);
+  let x = e.pageX / (len / music.duration);
   music.currentTime = x;
 
   var width = 2;
   var X = 1;
   for (var i = 0; i < len; i += 10) {       // for fillings the bars till which mouse pointer is there
     var bars = graph[i];
-    if (i < e.x) {
+    if (i < e.pageX) {
       if (bars < 50) {
         ctx.fillStyle = "red";
         ctx.fillRect(X, 80, width, -bars);
