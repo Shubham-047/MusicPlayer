@@ -1,0 +1,197 @@
+body{
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+h1{
+    margin-bottom: 5px;
+    color: rgb(247, 52, 52);
+    text-decoration: 5px solid blue underline;
+}
+.intro{
+ 
+    padding: 5px;
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    background-color: #11D223;
+    position: fixed;
+    top: 140px;
+    left: 10%;
+
+}
+.line1{
+    width: 3px;
+    height: 85px;
+   background-color: #11D223;
+    position: fixed;
+    top: 160px;
+    left: 12%;
+}
+.circle1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   background-color: #11D223;
+    position: fixed;
+    top: 240px;
+    left: 11.8%;
+}
+.one{
+    padding: 5px;
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: #22DE8D;
+    position: fixed;
+    top: 110px;
+    left: 20%;
+}
+.line2{
+    width: 3px;
+    height: 130px;
+   background-color: #22DE8D;
+    position: fixed;
+    top: 130px;
+    left: 21.5%;
+}
+.circle2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   background-color: #22DE8D;
+    position: fixed;
+    top: 250px;
+    left: 21.2%;
+}
+.rapport1{
+
+    padding: 5px;
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    background-color: #67A542;
+    position: fixed;
+     top: 80px;
+     right: 10%;
+}
+
+.line3{
+    width: 3px;
+    height: 150px;
+   background-color: #67A542;
+    position: fixed;
+    top: 90px;
+    right: 10%;
+}
+.circle3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   background-color: #67A542;
+    position: fixed;
+    top: 240px;
+    right: 9.8%;
+}
+.rapport2{
+    padding: 5px;
+    color: white;
+    font-weight: 300;
+    font-size:10px;
+    background-color: #966A6A;
+    position: fixed;
+    top: 120px;
+    right: 15%;
+}
+
+.line4{
+    width: 3px;
+    height: 100px;
+   background-color: #966A6A;
+    position: fixed;
+    top: 140px;
+    right: 15%;
+}
+.circle4{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   background-color: #966A6A;
+    position: fixed;
+    top: 235px;
+    right: 15%;
+}
+.pofile{
+ 
+    padding: 5px;
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    background-color: #1900B7;
+    position: fixed;
+    top: 160px;
+    right: 18%;
+}
+
+.line5{
+    width: 3px;
+    height: 60px;
+   background-color: #1900B7;
+    position: fixed;
+    top: 180px;
+    right: 18%;
+}
+.circle5{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   background-color: #1900B7;
+    position: fixed;
+    top: 240px;
+    right: 17.8%;
+}
+
+#main{
+    height: 40vh;
+    width: 99vw;
+    margin: auto;
+    padding: 0%;
+    background-color: whitesmoke;
+    border-bottom: 5px solid ;
+  
+   
+}
+
+#myCanvas{
+    height: 80%;
+    width: 100%;
+    
+    padding: 5% 2px 0px 0px;
+    /* border: 5px solid rgb(49, 48, 48); */
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.musicCont{
+    margin-top: 20px;
+}
+.action_btn{
+background-color: white;
+color:rgb(56,201,236) ;
+border: 1px solid rgb(56,201,236);
+border-radius: 15px;
+cursor: pointer;
+font-size: 10px;
+padding: 5px 20px;
+
+
+}
+.play{
+    font-size: 22px;
+}

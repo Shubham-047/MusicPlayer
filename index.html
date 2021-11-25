@@ -4,10 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./musicPlayer.css" />
+   
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Document</title>
 </head>
-<body>
-    <div id="main"></div>
+<body onload="draw()">
+    <h1>Music Player</h1>
+    <div class="intro">Introduction</div>
+    <div class="line1"></div>
+    <div class="circle1"></div>
+    <div class="one">one_six</div>
+    <div class="line2"></div>
+    <div class="circle2"></div>
+    <div class="rapport1">Rapport Building - Energy</div>
+    <div class="line3"></div>
+    <div class="circle3"></div>
+    <div class="rapport2">Rapport Building - Empathy</div>
+    <div class="line4"></div>
+    <div class="circle4"></div>
+    <div class="pofile">Polite</div>
+    <div class="line5"></div>
+    <div class="circle5"></div>
+    <div id="main">
+        <canvas id="myCanvas" ></canvas>
+    </div>
+    <div class="musicCont">
+        <audio src="./Music/audio1.mpeg" id="music"></audio>
+        <div class="btns">
+            <button id="volume" class="action_btn">
+                <i class="fas fa-volume-up"></i>
+            </button>
+             <button id="play" class="action_btn play">
+                <i class="fas fa-play"></i>
+            </button>
+             <button id="forward" class="action_btn">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+    </div>
 </body>
 <script src="./musicPlayer.js"></script>
 </html>
