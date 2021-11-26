@@ -79,7 +79,7 @@ function fill(count) {
 
 //adding eventListener to canvas for music movements
 canvas.addEventListener("click", (e) => {
-  
+
   let st = e.pageX / music.duration;
 
   let x = e.pageX / (len / music.duration);
@@ -93,6 +93,7 @@ canvas.addEventListener("click", (e) => {
       if (bars < 50) {
         ctx.fillStyle = "red";
         ctx.fillRect(X, 80, width, -bars);
+        console.log(X)
       } else {
         ctx.fillStyle = "red";
         ctx.fillRect(X, 40, width, bars);
@@ -106,7 +107,7 @@ canvas.addEventListener("click", (e) => {
         ctx.fillRect(X, 40, width, bars);
       }
     }
-    X += width + 1;
+    X += width +1;
   }
  
 });
